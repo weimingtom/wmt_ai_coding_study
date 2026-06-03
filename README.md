@@ -36,6 +36,21 @@ Sometimes just 'npm install -g @anthropic-ai/claude-code', but server can't do t
   }
 }
 ```
+```
+{
+  "env": {
+    "ANTHROPIC_BASE_URL": "https://api.minimaxi.com/anthropic",
+    "ANTHROPIC_AUTH_TOKEN": "<YOUR_MINIMAX_API_KEY>",
+    "API_TIMEOUT_MS": "3000000",
+    "CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC": 1,
+    "ANTHROPIC_MODEL": "MiniMax-M2.7",
+    "ANTHROPIC_SMALL_FAST_MODEL": "MiniMax-M2.7",
+    "ANTHROPIC_DEFAULT_SONNET_MODEL": "MiniMax-M2.7",
+    "ANTHROPIC_DEFAULT_OPUS_MODEL": "MiniMax-M2.7",
+    "ANTHROPIC_DEFAULT_HAIKU_MODEL": "MiniMax-M2.7"
+  }
+}
+```
 * 如果执行过claude的话可以新增一行hasCompletedOnboarding(**不是覆盖**)
 ```
 # Step2: 编辑或新增 `.claude.json` 文件
@@ -58,6 +73,21 @@ export ANTHROPIC_DEFAULT_HAIKU_MODEL=kimi-k2.5
 export CLAUDE_CODE_SUBAGENT_MODEL=kimi-k2.5
 export ENABLE_TOOL_SEARCH=false
 claude
+```
+```
+{
+  "env": {
+    "ANTHROPIC_BASE_URL": "https://api.kimi.com/coding/",
+    "ANTHROPIC_AUTH_TOKEN": "<YOUR_KIMI_API_KEY>",
+    "API_TIMEOUT_MS": "3000000",
+    "CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC": 1,
+    "ANTHROPIC_MODEL": "kimi-for-coding",
+    "ANTHROPIC_SMALL_FAST_MODEL": "kimi-for-coding",
+    "ANTHROPIC_DEFAULT_SONNET_MODEL": "kimi-for-coding",
+    "ANTHROPIC_DEFAULT_OPUS_MODEL": "kimi-for-coding",
+    "ANTHROPIC_DEFAULT_HAIKU_MODEL": "kimi-for-coding"
+  }
+}
 ```
 * https://api-docs.deepseek.com/zh-cn/quick_start/agent_integrations/claude_code
 ```
