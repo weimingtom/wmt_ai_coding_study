@@ -10,8 +10,9 @@ My AI Coding study
 在aliyun面板-模型-选择deepseek-输入key
 在aliyun面板-通道（频道）-下拉选择微信-用微信扫码绑定
 ```
-* CLI usage see: https://github.com/openclaw/openclaw
-* Full Install: openclaw onboard --install-daemon
+* CLI usage see: https://github.com/openclaw/openclaw  
+https://docs.openclaw.ai/web/tui  
+* Full Install: openclaw onboard --install-daemon  
 * Small Install: openclaw configure
 * (NOT GOOD) CLI Talk: openclaw
 * CLI Talk: openclaw chat
