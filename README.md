@@ -11,9 +11,38 @@ My AI Coding study
 在aliyun面板-通道（频道）-下拉选择微信-用微信扫码绑定
 ```
 
-## aliyun server install claude code
+## aliyun server install claude code CLI version
 * sudo npm install -g @anthropic-ai/claude-code
 ```
 Sometimes just 'npm install -g @anthropic-ai/claude-code', but server can't do this
 ```
- * 
+* https://platform.minimaxi.com/docs/token-plan/claude-code#%E6%89%8B%E5%8A%A8%E7%BC%96%E8%BE%91%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6
+* https://platform.minimaxi.com/docs/token-plan/claude-code#手动编辑配置文件
+```
+# Stpe1: 编辑或创建 Claude Code 的配置文件
+# MacOS & Linux 为 `~/.claude/settings.json`
+# Windows 为`用户目录/.claude/settings.json`
+# `MINIMAX_API_KEY` 需替换为您的 MiniMax API Key
+# 环境变量 `ANTHROPIC_AUTH_TOKEN` 和 `ANTHROPIC_BASE_URL` 优先级高于配置文件
+{
+  "env": {
+    "ANTHROPIC_BASE_URL": "https://api.minimaxi.com/anthropic",
+    "ANTHROPIC_AUTH_TOKEN": "MINIMAX_API_KEY",
+    "API_TIMEOUT_MS": "3000000",
+    "CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC": "1",
+    "ANTHROPIC_MODEL": "MiniMax-M3",
+    "ANTHROPIC_DEFAULT_SONNET_MODEL": "MiniMax-M3",
+    "ANTHROPIC_DEFAULT_OPUS_MODEL": "MiniMax-M3",
+    "ANTHROPIC_DEFAULT_HAIKU_MODEL": "MiniMax-M3"
+  }
+}
+```
+```
+# Step2: 编辑或新增 `.claude.json` 文件
+# MacOS & Linux 为 `~/.claude.json`
+# Windows 为`用户目录/.claude.json`
+# 新增 `hasCompletedOnboarding` 参数
+{
+  "hasCompletedOnboarding": true
+}
+```
