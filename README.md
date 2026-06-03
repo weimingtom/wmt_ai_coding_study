@@ -16,7 +16,6 @@ My AI Coding study
 ```
 Sometimes just 'npm install -g @anthropic-ai/claude-code', but server can't do this
 ```
-* https://platform.minimaxi.com/docs/token-plan/claude-code#%E6%89%8B%E5%8A%A8%E7%BC%96%E8%BE%91%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6
 * https://platform.minimaxi.com/docs/token-plan/claude-code#手动编辑配置文件
 ```
 # Stpe1: 编辑或创建 Claude Code 的配置文件
@@ -45,4 +44,28 @@ Sometimes just 'npm install -g @anthropic-ai/claude-code', but server can't do t
 {
   "hasCompletedOnboarding": true
 }
+```
+* https://platform.kimi.com/docs/guide/agent-support#macos-和-linux-2
+```
+# Linux/macOS 启动高速版 kimi-k2.5 模型
+export ANTHROPIC_BASE_URL=https://api.moonshot.cn/anthropic
+export ANTHROPIC_AUTH_TOKEN=${YOUR_MOONSHOT_API_KEY}
+export ANTHROPIC_MODEL=kimi-k2.5
+export ANTHROPIC_DEFAULT_OPUS_MODEL=kimi-k2.5
+export ANTHROPIC_DEFAULT_SONNET_MODEL=kimi-k2.5
+export ANTHROPIC_DEFAULT_HAIKU_MODEL=kimi-k2.5
+export CLAUDE_CODE_SUBAGENT_MODEL=kimi-k2.5
+export ENABLE_TOOL_SEARCH=false
+claude
+```
+* https://api-docs.deepseek.com/zh-cn/quick_start/agent_integrations/claude_code
+```
+export ANTHROPIC_BASE_URL=https://api.deepseek.com/anthropic
+export ANTHROPIC_AUTH_TOKEN=<你的 DeepSeek API Key>
+export ANTHROPIC_MODEL=deepseek-v4-pro[1m]
+export ANTHROPIC_DEFAULT_OPUS_MODEL=deepseek-v4-pro[1m]
+export ANTHROPIC_DEFAULT_SONNET_MODEL=deepseek-v4-pro[1m]
+export ANTHROPIC_DEFAULT_HAIKU_MODEL=deepseek-v4-flash
+export CLAUDE_CODE_SUBAGENT_MODEL=deepseek-v4-flash
+export CLAUDE_CODE_EFFORT_LEVEL=max
 ```
