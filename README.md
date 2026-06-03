@@ -36,6 +36,7 @@ Sometimes just 'npm install -g @anthropic-ai/claude-code', but server can't do t
   }
 }
 ```
+* 如果执行过claude的话可以新增一行hasCompletedOnboarding(**不是覆盖**)
 ```
 # Step2: 编辑或新增 `.claude.json` 文件
 # MacOS & Linux 为 `~/.claude.json`
