@@ -1,10 +1,12 @@
 # wmt_ai_coding_study
 My AI Coding study
 
+## (No install under Windows) Login deepseek
+
 ## (Fast install under Windows) install Trae or CodeBuddy
 * Just free or just need to pay  
 
-## aliyun cloud server install openclaw
+## Aliyun cloud server install openclaw
 * reset system, choose openclaw version, need backup data.
 * aliyun panel->app detail->models-choose deepseek->input key
 * aliyun panel->app detail->channels-choose wechat->qrcode bind wechat
@@ -22,7 +24,7 @@ https://docs.openclaw.ai/web/tui
 * CLI Talk: openclaw tui
 * Web Browser Talk: openclaw dashboard
 
-## aliyun server install claude code CLI version
+## Aliyun server install claude code CLI version
 * sudo npm install -g @anthropic-ai/claude-code
 ```
 Sometimes just 'npm install -g @anthropic-ai/claude-code', but server can't do this
