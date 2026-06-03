@@ -12,3 +12,8 @@ My AI Coding study
 ```
 
 ## aliyun server install claude code
+* sudo npm install -g @anthropic-ai/claude-code
+```
+Sometimes just 'npm install -g @anthropic-ai/claude-code', but server can't do this
+```
+ * 
