@@ -13,7 +13,8 @@ My AI Coding study
 * CLI usage see: https://github.com/openclaw/openclaw
 * Full Install: openclaw onboard --install-daemon
 * Small Install: openclaw configure
-* CLI Talk: openclaw
+* (NOT GOOD) CLI Talk: openclaw
+* CLI Talk: openclaw chat
 * CLI Talk: openclaw tui
 * Web Browser Talk: openclaw dashboard
 
