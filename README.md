@@ -1,6 +1,9 @@
 # wmt_ai_coding_study
 My AI Coding study
 
+## (Fast install under Windows) install Trae or CodeBuddy
+* Just free or just need to pay  
+
 ## aliyun cloud server install openclaw
 * reset system, choose openclaw version, need backup data.
 * aliyun panel->app detail->models-choose deepseek->input key
