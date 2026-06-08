@@ -102,7 +102,8 @@ claude
   }
 }
 ```
-* https://api-docs.deepseek.com/zh-cn/quick_start/agent_integrations/claude_code
+* https://api-docs.deepseek.com/zh-cn/guides/coding_agents  
+* https://api-docs.deepseek.com/zh-cn/quick_start/agent_integrations/claude_code  
 ```
 export ANTHROPIC_BASE_URL=https://api.deepseek.com/anthropic
 export ANTHROPIC_AUTH_TOKEN=<你的 DeepSeek API Key>
