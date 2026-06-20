@@ -117,6 +117,7 @@ export CLAUDE_CODE_EFFORT_LEVEL=max
 * 如果你用cc-switch就知道为什么要这样做，因为claude有三个模型需要映射
 * 但最好不要用cc-switch，因为有可能会装不上cc-switch，除非windows上用GUI版的claude code就最好用cc-switch
 * 而且cc-switch很麻烦，需要照着步骤做，反而不如改配置文件快
+* https://docs.bigmodel.cn/cn/coding-plan/tool/claude  
 
 ## Install CC-Switch and Desktop version of Cluade Code
 * (TODO)
