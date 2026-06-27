@@ -3,8 +3,19 @@ My AI Coding study
 
 ## (No install under Windows) Login deepseek
 
-## (Fast install under Windows) install Trae or CodeBuddy
-* Just free or just need to pay  
+## (Fast install under Windows) install Trae or CodeBuddy or Qoder, choose CN, choose Windows, choose IDE version (not work version)
+* Just free (impossible now, you can choose OpenCode) or just need to pay
+* You can choose CN version or International version in different sites, like CodeBuddyCN or TraeCN or QoderCN
+* ===
+* CN versions IDE: 
+* https://www.codebuddy.cn/ide/  
+* https://www.trae.cn/ide/download  
+* https://qoder.com.cn/download  
+* ====
+* EN versions IDE:
+* https://www.trae.ai  
+* https://www.codebuddy.com/product  
+* https://qoder.com/en/download  
 
 ## Aliyun cloud server install openclaw
 * reset system, choose openclaw version, need backup data.
