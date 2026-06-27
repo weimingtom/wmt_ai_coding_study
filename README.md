@@ -141,4 +141,4 @@ export CLAUDE_CODE_EFFORT_LEVEL=max
 * https://opencode.ai/download
 * ===
 * (Not Recommended) Very old version, but can be upgrade to the newest version
-* https://opencodeai.cn
+* (Not Recommended) https://opencodeai.cn
