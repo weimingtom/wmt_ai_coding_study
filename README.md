@@ -8,8 +8,8 @@ My AI Coding study
 * You can choose CN version or International version in different sites, like CodeBuddyCN or TraeCN or QoderCN
 * ===
 * CN versions IDE: 
-* https://www.codebuddy.cn/ide/  
 * https://www.trae.cn/ide/download  
+* https://www.codebuddy.cn/ide/  
 * https://qoder.com.cn/download  
 * ====
 * EN versions IDE:
