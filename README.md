@@ -1,7 +1,10 @@
 # wmt_ai_coding_study
 My AI Coding study
 
-## (No install under Windows) Login deepseek
+## (No install under Windows) Login deepseek or bigmodel GLM
+* https://chat.deepseek.com  
+* https://bigmodel.cn/trialcenter/modeltrial/text  
+* But you can't write the files  
 
 ## (Fast install under Windows) install Trae or CodeBuddy or Qoder, choose CN, choose Windows, choose IDE version (not work version)
 * Just free (impossible now, you can choose OpenCode) or just need to pay
