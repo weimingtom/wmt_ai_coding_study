@@ -136,4 +136,9 @@ export CLAUDE_CODE_EFFORT_LEVEL=max
 ## Install CC-Switch and Desktop version of Cluade Code
 * (TODO)
 
-
+## OpenCode, some free models like deepseek flash
+* https://github.com/anomalyco/opencode
+* https://opencode.ai/download
+* ===
+* (Not Recommended) Very old version, but can be upgrade to the newest version
+* https://opencodeai.cn
