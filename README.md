@@ -18,7 +18,9 @@ My AI Coding study
 * EN versions IDE:
 * https://www.trae.ai  
 * https://www.codebuddy.com/product  
-* https://qoder.com/en/download  
+* https://qoder.com/en/download
+* ===
+* https://www.aliyun.com/benefit/scene/qoder
 
 ## Aliyun cloud server install openclaw
 * reset system, choose openclaw version, need backup data.
