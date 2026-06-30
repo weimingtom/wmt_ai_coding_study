@@ -40,7 +40,7 @@ https://docs.openclaw.ai/web/tui
 * CLI Talk: openclaw tui
 * Web Browser Talk: openclaw dashboard
 
-## Aliyun server install claude code CLI version
+## (For Claude Code CLI Version under Linux) Aliyun server install claude code CLI version
 * sudo npm install -g @anthropic-ai/claude-code
 ```
 Sometimes just 'npm install -g @anthropic-ai/claude-code', but server can't do this
@@ -135,8 +135,39 @@ export CLAUDE_CODE_EFFORT_LEVEL=max
 * 而且cc-switch很麻烦，需要照着步骤做，反而不如改配置文件快
 * https://docs.bigmodel.cn/cn/coding-plan/tool/claude  
 
-## Install CC-Switch and Desktop version of Cluade Code
-* (TODO)
+## (TODO) (For Claude Code Desktop Version under Windows) Install CC-Switch and Desktop version of Cluade Code
+* (Be careful malware) Install Claude Code Desktop, Claude-xxx.exe and Claude-xxx.msix    
+https://claude.com/download  
+https://github.com/ProjectAILeap/claude-code-releases/releases  
+* (Optional, if you don't do this, You can't use Cowork function in Claude.exe)  
+PowerShell：Add-AppxPackage -Path "Claude.msix"  
+* Configure Claude Code 3P
+```
+Open Claude from the start menu. If the window appears blank, it is because Claude has rejected the domestic IP address. Please "turn on VPN" or "computer disconnected" before reopening Claude to see the menu entrance in the upper left corner of the window;
+Do not log in to Claude's account;
+Firstly, click on the window menu "Help>Troubleshooting>Enable Developer Mode", and then click "Enable" to confirm;
+Then click on the window menu "Developer>Configure Third Party Inference..." to open the "Configure Third party Inference" settings window;
+To set the "Connection" of the window, usually only the following three items need to be filled in. It is recommended to use it with CC Switch:
+Gateway base URL： http://127.0.0.1:15721
+Gateway API key: a [any string]
+Model list: Add at least one model ID starting with "claude -", such as "claude opus" (because Claude filtered the model ID, it was mapped to the real large model ID through CC Switch)
+Then click the "Apply locally" button to confirm, and click "Relaunch now" to immediately rerun and take effect
+(Note: After setting up a third-party large model, there is no need to "turn on VPN" or "disconnect computer network")
+(Note: If a third-party large model accepts any model ID - similar to the default model ID - then it can directly use the Anthropic protocol address and API Key of this large model without CC Switch)
+
+If prompted to install Git at runtime, go to https://git-scm.com/install/windows Download and install Git, then rerun Claude Desktop
+
+Download and update Claude Code command-line version
+From https://github.com/anthropics/claude-code/releases Download the latest Claude Code command-line version, such as claude-win32-x64.zip for v2.1.139（ https://github.com/anthropics/claude-code/releases/download/v2.1.139/claude-win32-x64.zip ）Then extract the file 'claude.exe' (note: the properties of the exe file can be viewed by the version number)
+
+Open the folder "C:\Users\System Account\AppData\Local\Claude 3p\Claude code\2.1.128\" (note: the last folder name may be a different version number, which should be the command line version number associated with the desktop);
+Copy the new version file 'claude. exe' to this folder (as it will be called on the desktop);
+Additionally, if this folder does not have the file '.verified', you will need to manually create a zero byte file of this size;
+
+Add this folder path to the system environment variable Path, and you can manually call the Claude Code command-line version (open the terminal, cd the working directory, and enter claude);
+```
+* https://www.luoli.monster/2026/05/08/claude-code-for-vs-codecc-switchdeepseek-v4%e9%85%8d%e7%bd%ae/  
+Claude Code for VS Code+cc-switch+deepseek v4配置  
 
 ## OpenCode, some free models like deepseek flash
 * https://github.com/anomalyco/opencode
