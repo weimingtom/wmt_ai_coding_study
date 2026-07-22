@@ -175,3 +175,7 @@ Claude Code for VS Code+cc-switch+deepseek v4配置
 * ===
 * (Not Recommended) Very old version, but can be upgrade to the newest version
 * (Not Recommended) https://opencodeai.cn
+
+## Cursor
+* https://cursor.com/cn
+* https://cursor.com/cn/docs
