@@ -179,3 +179,5 @@ Claude Code for VS Code+cc-switch+deepseek v4配置
 ## Cursor
 * https://cursor.com/cn
 * https://cursor.com/cn/docs
+* 如果你想用外国的AI, 除了中转站(转发)和Copilot, 可能这是最好的选择, 因为Cursor支持alipay支付
+* 当然cursor比较贵, 而且不是最好的, 但能用已经很好了, 我认为至少比中转站(转发)和Copilot好用很多, 中转站容易断开, Copilot很难支付  
