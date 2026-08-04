@@ -3,6 +3,9 @@ My AI Coding study
 
 ## (No install under Windows) Login deepseek or bigmodel GLM
 * https://chat.deepseek.com  
+```
+deepseek的网页版会话内容可以带到另一台电脑，不是临时缓存
+```
 * https://bigmodel.cn/trialcenter/modeltrial/text  
 * But you can't write the files  
 
