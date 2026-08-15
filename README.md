@@ -137,6 +137,27 @@ export CLAUDE_CODE_EFFORT_LEVEL=max
 * 但最好不要用cc-switch，因为有可能会装不上cc-switch，除非windows上用GUI版的claude code就最好用cc-switch
 * 而且cc-switch很麻烦，需要照着步骤做，反而不如改配置文件快
 * https://docs.bigmodel.cn/cn/coding-plan/tool/claude  
+* https://docs.bigmodel.cn/cn/coding-plan/tool/claude#方式三：手动配置  
+```
+# 编辑或新增 `settings.json` 文件
+# macOS & Linux 为 `~/.claude/settings.json`
+# Windows 为`用户目录/.claude/settings.json`
+# 新增或修改里面的 env 字段
+# 注意替换里面的 `YOUR_API_KEY` 为您上一步获取到的 API Key
+# 新增 `hasCompletedOnboarding` 参数
+{
+      "env": {
+      "ANTHROPIC_AUTH_TOKEN": "YOUR_API_KEY",
+      "ANTHROPIC_BASE_URL": "https://open.bigmodel.cn/api/anthropic",
+      "ANTHROPIC_DEFAULT_HAIKU_MODEL": "glm-4.7",
+      "ANTHROPIC_DEFAULT_SONNET_MODEL": "glm-5.2[1m]",
+      "ANTHROPIC_DEFAULT_OPUS_MODEL": "glm-5.2[1m]",
+      "CLAUDE_CODE_AUTO_COMPACT_WINDOW": "1000000",
+      "CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC": 1,
+      "API_TIMEOUT_MS": "3000000"
+  }
+}
+```
 
 ## (TODO) (For Claude Code Desktop Version under Windows) Install CC-Switch and Desktop version of Cluade Code
 * (Be careful malware) Install Claude Code Desktop, Claude-xxx.exe and Claude-xxx.msix    
